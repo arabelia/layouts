@@ -1,0 +1,97 @@
+/* ayuda para mostrar todos los esppacios, al final se debe borrar */
+/*
+*{outline:1px solid rgba(255,0,0,0.2);}
+*/
+
+body{text-align: center; font-size: 16px;}
+img{width: 100%}
+
+.contenedor{width: 500px; margin: auto;}
+.cabecera{ background: #fff;}
+
+.listmenu{list-style: none; padding: 5px 0px; border-top:2px solid #111; border-bottom: 2px solid #111;}
+.listmenu li{display: inline-block; border-right: 1px solid #111;}
+.listmenu li:last-child{border-right:none;}
+.listmenu a{text-decoration: none; color: #111; padding: 10px 18px;}
+
+.lineacorta{width: 50px; height: 2px; background: #585858;
+	margin: 10px auto;}
+
+.lineacortalateral{width: 80px; height: 3px; background: #000;
+	margin: 20px 0px;}
+.contenedor>h2{text-align: left;}
+
+.listacoders{list-style: none; padding: 0px; margin: 20px 0 0 0;}
+.listacoders li{display: inline-block; position: relative; width: 28%; margin: 8px; background: #111;}
+.listacoders a{ display: block;  color: #FFF; }
+.listacoders p { margin: 0; position: absolute; bottom: 10px; right: 5px; color: #fff; font-size: 14px;}
+.listacoders img{opacity: 0.5}
+.listacoders img:hover{opacity: 1;}
+
+
+/*codigo para detalle de coder1*/
+.detalle{
+	width: 500px; margin: auto;
+	border: 1px solid #6E6E6E;
+	padding: 20px;
+}
+
+.detalle>img{
+	border-radius: 150px;
+	width: 150px;
+}
+
+.detalle>h1{
+	text-align: center;
+	margin: 0 auto;
+}
+
+.detalle>p{
+	text-align: center;
+}
+
+/*portaflio de fotos*/
+.portafolio{
+	width: 100%;
+}
+
+.portafolio>div{
+	width: 120px;
+	margin: 10px;
+	display: inline-block;
+	position: relative;
+}
+
+.portafolio img{
+	width: 100%;
+}
+
+.grey{
+	background: #BDBDBD;
+	margin:10px;
+	height: 30px;
+}
+
+.codigoa{
+	width: 400px;
+	color:#fff;
+	padding-left: 12px;
+	padding-top: 4px;
+}
+
+.codigob{
+	width: 300px;
+	color:#fff;
+	padding-left: 12px;
+	padding-top: 4px;
+}
+
+.codigoc{
+	width: 200px;
+	color:#fff;
+	padding-left: 12px;
+	padding-top: 4px;
+}
+
+
+
